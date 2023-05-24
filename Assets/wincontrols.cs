@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class wincontrols : MonoBehaviour
 {
+
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,8 @@ public class wincontrols : MonoBehaviour
     {
         if (other.name == "Ball")
         {
+           
+            StrokeManager.instance.ResetStrokes();
             SceneManager.LoadScene("TestGolfScene2");
         }
 
