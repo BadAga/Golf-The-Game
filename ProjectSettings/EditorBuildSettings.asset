@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c0881c2bf1ecc314e9e3565b34b5f4dc
+  - enabled: 1
+    path: Assets/Scenes/ChoosePlayerCount.unity
+    guid: 78fc09f9280757847a2bf12861e6a5d0
+  - enabled: 1
     path: Assets/Scenes/TestGolfScene.unity
     guid: 70346f52594acc5419a495d457cde8d8
   - enabled: 1

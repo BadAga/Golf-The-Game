@@ -24,7 +24,7 @@ public class wincontrols : MonoBehaviour
         {
            
             StrokeManager.instance.ResetStrokes();
-            SceneManager.LoadScene("TestGolfScene2");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
     }
